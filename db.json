@@ -1,0 +1,509 @@
+{
+  "sofaTypes": [
+    {
+    "id" : 1,
+    "name": "Sofas",
+    "image": "//au.koala.com/cdn/shop/collections/ModernSofa_ArvoStorm_3Seater_4_1.webp?v=1731980629&width=1500"
+  },
+  {
+    "id" : 2,
+    "name": "Sofa Beds",
+    "image": "//au.koala.com/cdn/shop/collections/CushyLuxe_Gumleaf_Queen_8_2.webp?v=1727055315&width=3840"
+  },
+  {
+    "id" : 3,
+    "name": "Chaise Sofas",
+    "image": "//au.koala.com/cdn/shop/collections/5728f52223414ca8827313ef284077b0_ee5bee6d-97e3-4a65-8f6b-45220bf0baba.png?v=1742257301&width=1920"
+  },
+  {
+    "id":4,
+    "name": "Corner Sofas",
+    "image": "//au.koala.com/cdn/shop/collections/5339e3a318c889036c8a8730676e26ce.png?v=1727414941&width=1920"
+  },
+  {
+    "id" : 5,
+    "name": "Modular Sofas",
+    "image": "//au.koala.com/cdn/shop/files/ecd9f5d3357467ffae3d088e102b054f.png?v=1725498723&width=1920"
+  },
+  {
+    "id" : 6,
+    "name": "Ottomans",
+    "image": "//au.koala.com/cdn/shop/collections/ByronSB_3rdG_Ottoman_BlushSunset_3_1bff66ed-4c0a-49d5-871e-fe604c6689c5.png?v=1743474738&width=1921"
+  },
+  {
+    "id" : 7,
+    "name": "Armchairs",
+    "image": "//au.koala.com/cdn/shop/collections/bfa60f1787bbaab0c566e5e801a4ce80.png?v=1741828592&width=1920"
+  }
+  ],
+
+  "bedroom" : [
+    {
+    "name": "Mattresses",
+    "photo": "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg"
+  },
+  {
+    "name": "Bed Base",
+    "photo": "https://images.pexels.com/photos/2416933/pexels-photo-2416933.jpeg"
+  },
+  {
+    "name": "Bundles",
+    "photo": "https://images.pexels.com/photos/271743/pexels-photo-271743.jpeg"
+  },
+  {
+    "name": "Pillow",
+    "photo": "https://images.pexels.com/photos/545012/pexels-photo-545012.jpeg"
+  },
+  {
+    "name": "Bedside Table",
+    "photo": "https://images.pexels.com/photos/6580367/pexels-photo-6580367.jpeg"
+  },
+  {
+    "name": "Bed Cover and Sheets",
+    "photo": "https://images.pexels.com/photos/545012/pexels-photo-545012.jpeg"
+  },
+  {
+    "name": "Rugs",
+    "photo": "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg"
+  }
+
+  ],
+
+  "LivingRoom" : [
+    {
+    "name": "Sofabeds",
+    "image": "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg"
+  },
+  {
+    "name": "Ottomans",
+    "image": "https://images.pexels.com/photos/6207821/pexels-photo-6207821.jpeg"
+  },
+  {
+    "name": "Bookshelves",
+    "image": "//au.koala.com/cdn/shop/collections/2716e936a2eec1f41bb0afd8f978e802.png?v=1727418508&amp;width=3840"
+  },
+  {
+    "name": "Rugs",
+    "image": "https://www.urbanspacestore.in/cdn/shop/files/kudos_07_1_1004bf6d-595b-4b06-90e3-749b3372fa07.jpg?v=1747034108"
+  },
+  {
+    "name": "Armchairs",
+    "image": "https://img.freepik.com/free-photo/armchair_1203-292.jpg?semt=ais_hybrid&w=300"
+  },
+  {
+    "name": "Sofa Covers",
+    "image": "https://images.pexels.com/photos/4138152/pexels-photo-4138152.jpeg"
+  },
+  {
+    "name": "Living Room Clearance",
+    "image": "https://images.pexels.com/photos/1866146/pexels-photo-1866146.jpeg"
+  }
+  ],
+
+  "outdoor" :
+  [
+  {
+    "name": "Rattan Seats and Coffee Table on Terrace",
+    "image": "https://images.pexels.com/photos/27001864/pexels-photo-27001864.jpeg"
+  },
+  {
+    "name": "Sun Loungers and a Small Table in the Garden",
+    "image": "https://images.pexels.com/photos/17307053/pexels-photo-17307053.jpeg"
+  },
+  {
+    "name": "Casual Outdoor Lounge with Man Relaxing",
+    "image": "https://images.pexels.com/photos/30979443/pexels-photo-30979443.jpeg"
+  },
+  {
+    "name": "Luxurious Outdoor Dining Table by Poolside",
+    "image": "https://images.pexels.com/photos/29453400/pexels-photo-29453400.jpeg"
+  },
+  {
+    "name": "Vibrant Outdoor Dining Table with Citrus and Flowers",
+    "image": "https://images.pexels.com/photos/29131197/pexels-photo-29131197.jpeg"
+  },
+  {
+    "name": "Outdoor Cafe Seating with Metal Chairs and Wooden Tables",
+    "image": "https://images.pexels.com/photos/27277172/pexels-photo-27277172.jpeg"
+  },
+  {
+    "name": "Rectangular Brown Rattan Coffee Table in Home",
+    "image": "https://images.pexels.com/photos/279867/pexels-photo-279867.jpeg"
+  },
+  {
+    "name": "Coffee Table on Verandah",
+    "image": "https://images.pexels.com/photos/12000312/pexels-photo-12000312.jpeg"
+  },
+  {
+    "name": "Relaxing Outdoor Lounge Chairs in Tropical Garden",
+    "image": "https://images.pexels.com/photos/16514420/pexels-photo-16514420.jpeg"
+  },
+  {
+    "name": "Outdoor Chaise Lounge by the Pool",
+    "image": "https://images.pexels.com/photos/10610446/pexels-photo-10610446.jpeg"
+  }
+],
+
+  "Cate" :[
+    {
+      "name" :"Byron Sofa Bed",
+      "image" :"https://au.koala.com/cdn/shop/files/ByronSB_3rdG_Blush_Sunset_4.jpg?v=1739505454&width=1920",
+      "category" :"Sofa-bed",
+      "rattings" : "★★★★★ 4.8 (2203)",
+      "price" : "$120"
+    },
+    {
+      "name" : "Koala Sofa Bed",
+      "image" :"https://i.pinimg.com/736x/36/74/79/3674794775c68ab35e4299f8ee9cacf0.jpg",
+      "category" :"Sofa-bed",
+      "rattings" : "★★★★★ 4.6 (1832)",
+      "price" : "$150"
+    },
+    {
+      "name" : "Wanda Sofa Bed",
+      "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSneT-O99VC2uy7U9R9_M-GD4LNysS1TGFgjA&s",
+      "category" :"Sofa-bed",
+      "rattings" : "★★★★★ 4.9 (282)",
+      "price" : "$140"
+    },
+    {
+      "name" : "OG Sofa Bed",
+      "image" :"https://au.koala.com/cdn/shop/files/SOFABED_LUNAGREY_QUEEN_1-1nC2S7TPwHGQEoKqquoMvr.jpg?v=1725434665&width=1920",
+      "category" :"Sofa-bed",
+      "rattings" : "★★★★★ 4.8 (2033)",
+      "price" : "$1100"
+    },
+    {
+      "name" : "koala luxe mattresse",
+      "image" : "https://spaces.in/cdn/shop/products/1060098-1.jpg?v=1671951375",
+      "category" : "Mattress",
+      "rattings" : "★★★★★ 4.9 (922)",
+      "price" : "$220"
+    },
+    {
+      "name" : "koala plus mattresse",
+      "image" : "https://www.springwel.com/cdn/shop/files/Frountangle.jpg?v=1698828644",
+      "category" : "Mattress",
+      "rattings" : "★★★★★ 4.6 (1024)",
+      "price" : "$110"
+    },
+    {
+      "name" : "koala mattresse",
+      "image" : "https://au.koala.com/cdn/shop/files/AU_-_The_New_Koala_Mattress_-_Single_-_4-2zuQUeKYSEkAKKWlURxqBh.jpg?v=1725431277&width=1920",
+      "category" : "Mattress",
+      "rattings" : "★★★★★ 4.6 (2963)",
+      "price" : "$300"
+    },
+    {
+      "name" : "koala SE mattresse",
+      "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw1-iaFUbAWKxWF9H7DaPM69eEcBjxgdoQmQ&s",
+      "category" : "Mattress",
+      "rattings" : "★★★★★ 4.8 (927)",
+      "price" : "$230"
+    },
+    {
+      "name" : "Bunglow modular sofa",
+      "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedX4S4VRPScwy9EwFG45fPUQDPt8WkPZkCA&s",
+      "category" : "Sofa",
+      "rattings" : "★★★★★ 4.6 (1027)",
+      "price" : "$400"
+    },
+    {
+      "name" : "Modern Sofa",
+      "image" : "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/c153799b-2716-4a2d-86a6-e8e4c2efc027/whatsapp-image-2023-02-19-at-11-46-23-pm.jpeg",
+      "category" : "Sofa",
+      "rattings" : "★★★★★ 4.7 (972)",
+      "price" : "$500"
+    },
+    {
+      "name" : "Lounging Sofa",
+      "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy5P5lZKZRqx2PurMuLRfRW4N7G76YO4oprA&s",
+      "category" : "Sofa",
+      "rattings" : "★★★★★ 4.7 (2936)",
+      "price" : "$340"
+    },
+    {
+      "name" : "Suffolk Sofa",
+      "image" : "https://images.squarespace-cdn.com/content/v1/6401748144c9bd5c9d73ceb1/77e29ef6-f746-4905-b9f7-d69ba5ed82ce/KENKOA0112_20240528_SuffolkSofa_3.5Seat_Sandstone_01_30657_R2.jpeg",
+      "category" : "Sofa",
+      "rattings" : "★★★★★ 4.7 (916)",
+      "price" : "$200"
+    },
+    {
+      "name" :"Kirribilli Bed Base",
+      "image" : "https://au.koala.com/cdn/shop/collections/Kirribilli_Bed_Base_Queen_10_1.webp?v=1727055189&width=3840",
+      "category" : "Bed Base",
+      "rattings" : "★★★★★ 4.6 (2873)",
+      "price" : "$200"
+    },
+    {
+      "name" : "Balmain Bed Base",
+      "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGXHGI1SirxiJUtmpXip3v6a66vRuWh2UOKQ&s",
+      "category" : "Bed Base",
+      "rattings" : "★★★★★ 4.7 (865)",
+      "price" : "$140"
+    },
+    {
+      "name" : "Brunswick Bed Base",
+      "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ9gOOeJjv_DThY2SC_EAHAoaWkvaKuFtYjg&s",
+      "category" : "Bed Base",
+      "rattings" : "★★★★★ 4.8 (2473)",
+      "price" : "$300"
+    },
+    {
+      "name" : "Paddington Bed Base",
+      "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ9gOOeJjv_DThY2SC_EAHAoaWkvaKuFtYjg&s",
+      "category" : "Bed Base",
+      "rattings" : "★★★★★ 4.9 (973)",
+      "price" : "$400"
+    }
+  ],
+
+  "mattressSize" : [
+    {
+      "name" : "koala plus mattresse",
+      "image" : "https://images.durian.in/Durian/durian/product/800x800/189941730790165.jpg?tr=w-938,q-100,pr-true",
+      "category" : "Single",
+      "size" : "6 Size,single",
+      "price" : "$110",
+      "rattings" : "★★★★★ 4.6 (1024)"
+    },
+    {
+      "name" : "koala mattresse",
+      "image" : "https://m.media-amazon.com/images/I/813AqUqz2TL.jpg",
+      "category" : "Single",
+      "size" : "6 Size,single",
+      "price" : "$150",
+      "rattings" : "★★★★★ 4.7 (1744)"
+    },
+    {
+      "name" : "koala SE mattresse",
+      "image" : "https://rukminid2.flixcart.com/image/850/1000/xif0q/bed-mattress/y/h/h/-original-imah3crfbmgeybjh.jpeg?q=90&crop=false",
+      "category" : "Single",
+      "size" : "5 Size,single",
+      "price" : "$200",
+      "rattings" : "★★★★★ 4.8 (1924)"
+    },
+    {
+      "name" : "koala luxe mattresse",
+      "image" : "https://thesleepcompany.in/cdn/shop/files/1_8ef3a65c-64b3-483f-a449-9f54daae8fbc.webp?v=1746556137",
+      "category" : "Double",
+      "size" : "6 Size,double",
+      "price": "$200",
+      "rattings" : "★★★★★ 4.6 (2873)"
+    },
+    {
+      "name" : "koala mattresse",
+      "image" : "https://m.media-amazon.com/images/I/81f1HR4oWDL.jpg",
+      "category" : "Double",
+      "size" : "6 Size,double",
+      "price": "$500",
+      "rattings" : "★★★★★ 4.8 (1873)"
+    },
+    {
+      "name" : "koala plus mattresse",
+      "image" : "https://5.imimg.com/data5/SELLER/Default/2024/10/461893328/OP/DN/ES/149304558/sleepwell-double-bed-mattress-500x500.jpg",
+      "category" : "Double",
+      "size" : "5 Size,double",
+      "price": "$400",
+      "rattings" : "★★★★★ 4.9 (873)"
+    },
+    {
+      "name" : "koala SE mattresse",
+      "image" : "https://ik.imagekit.io/2xkwa8s1i/img/WFXGSM/WFXGSM_LS_1.jpg?tr=w-3840",
+      "category" : "Double",
+      "size" : "6 Size,double",
+      "price": "$300",
+      "rattings" : "★★★★★ 4.7 (1873)"
+    },
+    {
+      "name" : "koala luxe mattresse",
+      "image" : "https://spaces.in/cdn/shop/products/1060098-1.jpg?v=1671951375",
+      "category" : "King",
+      "size" : "5 Size,king",
+      "rattings" : "★★★★★ 4.9 (922)",
+      "price" : "$220"
+    },
+    {
+      "name" : "koala plus mattresse",
+      "image" : "https://www.springwel.com/cdn/shop/files/Frountangle.jpg?v=1698828644",
+      "category" : "King",
+      "size":"6 Size.king",
+      "rattings" : "★★★★★ 4.6 (1024)",
+      "price" : "$110"
+    },
+    {
+      "name" : "koala mattresse",
+      "image" : "https://m.media-amazon.com/images/I/81BR8QWnTiL.jpg",
+      "category" : "King",
+      "size": "6 Size,king",
+      "rattings" : "★★★★★ 4.6 (2963)",
+      "price" : "$300"
+    },
+    {
+      "name" : "koala SE mattresse",
+      "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw1-iaFUbAWKxWF9H7DaPM69eEcBjxgdoQmQ&s",
+      "category" : "King",
+      "size" : "5 Size,king",
+      "rattings" : "★★★★★ 4.8 (927)",
+      "price" : "$230"
+    }
+  ],
+  "clients": [
+    {
+      "name": "Super comfy!",
+      "image": "//au.koala.com/cdn/shop/files/82a016c8-2689-48ab-9465-446b59af0da5.webp?v=1728835440",
+      "data": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
+      "customername": "David",
+      "buyer": "Verified Buyer",
+      "shop": "Shop Koala Sofa Bed"
+    },
+    {
+      "name": "Best sleep ever",
+      "image": "//au.koala.com/cdn/shop/files/3257a0ff-491a-49dc-b026-034c3c390ac5.webp?v=1728632062",
+      "data": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+      "customername": "Emma",
+      "buyer": "Verified Buyer",
+      "shop": "Shop Koala Mattress"
+    },
+    {
+      "name": "Stylish and firm",
+      "image": "//au.koala.com/cdn/shop/files/8ea0748e-8c60-46b1-a9f3-ad5b8a6eff35.webp?v=1728836717",
+      "data": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "customername": "James",
+      "buyer": "Verified Buyer",
+      "shop": "Shop Koala Bed Base"
+    },
+    {
+      "name": "Perfect for guests",
+      "image": "//au.koala.com/cdn/shop/files/0fe80c78-cdad-48d9-b395-4ad76d29c93d.webp?v=1728629161",
+      "data": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.",
+      "customername": "Sophia",
+      "buyer": "Verified Buyer",
+      "shop": "Shop Koala Sofa Bed"
+    },
+    {
+      "name": "Amazing quality",
+      "image": "//au.koala.com/cdn/shop/files/446884b8-c3e4-4a99-8f17-eac1f77d965d.webp?v=1728836308",
+      "data": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "customername": "Liam",
+      "buyer": "Verified Buyer",
+      "shop": "Shop Koala Sofa"
+    },
+    {
+      "name": "Game changer",
+      "image": "//au.koala.com/cdn/shop/files/1f1e13d8-c8e0-4996-a8f6-052a0779dab5_1.webp?v=1728837440",
+      "data": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+      "customername": "Olivia",
+      "buyer": "Verified Buyer",
+      "shop": "Shop Koala Mattress"
+    },
+    {
+      "name": "Comfort meets design",
+      "image": "//au.koala.com/cdn/shop/files/fdb4cbea-ebf0-47f7-b853-1c9c3d2092c5.webp?v=1728835358",
+      "data": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+      "customername": "Noah",
+      "buyer": "Verified Buyer",
+      "shop": "Shop Koala Bed Base"
+    }
+  ],
+  
+  "sofa-collection" : [
+    {
+      "name" : "All Sofas",
+      "image" : "//au.koala.com/cdn/shop/files/Wanda_GreenWattle_3.webp?v=1727357253"
+    },
+    {
+      "name" : "Sofa Beds",
+      "image" : "//au.koala.com/cdn/shop/files/Mobile_5.jpg?v=1727180684"
+    },
+    {
+      "name" : "Sofas",
+      "image" : "//au.koala.com/cdn/shop/files/T00176_AU_Modern_Sofa4.5_seaterAU_4.5_seater_Hawky_7896-gYwUCAYHa519OiQovPLAG.jpg?v=1725435052"
+    },
+    {
+      "name" : "Modular Sofas",
+      "image" : "//au.koala.com/cdn/shop/files/Sand_3seater_1-4ShzItcIRSJguBeFtzcR7g.jpg?v=1725431906"
+    },
+    {
+      "name" : "Chaise Sofas",
+      "image" : "//au.koala.com/cdn/shop/files/K_4S_Chaise-5m5d6wlgjFLLD2sbdLErEZ.jpg?v=1725433373"
+    },
+    {
+      "name" : "Corner Sofas",
+      "image" : "//au.koala.com/cdn/shop/files/T00407_AU_Modern_Sofa_and_CornerANYAU_4.5_seater_corner_left_Hawky_15640-1skEdLTD8HhToZLkxMbsKn.jpg?v=1725435045"
+    },
+    {
+      "name" : "Armchairs",
+      "image" : "//au.koala.com/cdn/shop/files/Suffolk_Armchair_SunsetRust_2-68jkGFOJkBus9OBmY6tvPD.jpg?v=1725431133"
+    },
+    {
+      "name" : "Ottomans",
+      "image" : "//au.koala.com/cdn/shop/files/Copy_of_R0635_AU_Lounging_sofa_ottomanN-AAU_2_seater_Brushtail_Grey_12708-4GVIOud4V9RAvrb18lwRVn.jpg?v=1725435062"
+    },
+    {
+      "name" : "Sofa Modules",
+      "image" : "//au.koala.com/cdn/shop/files/Limestone_4.5SC_4-2dlgUBymC5lk1EavOJ6s3c.jpg?v=1725431892"
+    }
+  ],
+
+  "sofas-data" :[
+    {
+      "image" : "//au.koala.com/cdn/shop/files/cb6557e64aa9e0b4caa665ec11c26cb4.png?v=1725498735&width=165 165w,//au.koala.com/cdn/shop/files/cb6557e64aa9e0b4caa665ec11c26cb4.png?v=1725498735&width=360 360w,//au.koala.com/cdn/shop/files/cb6557e64aa9e0b4caa665ec11c26cb4.png?v=1725498735&width=533 533w,//au.koala.com/cdn/shop/files/cb6557e64aa9e0b4caa665ec11c26cb4.png?v=1725498735&width=720 720w,//au.koala.com/cdn/shop/files/cb6557e64aa9e0b4caa665ec11c26cb4.png?v=1725498735&width=940 940w,//au.koala.com/cdn/shop/files/cb6557e64aa9e0b4caa665ec11c26cb4.png?v=1725498735&width=1066 1066w,//au.koala.com/cdn/shop/files/cb6557e64aa9e0b4caa665ec11c26cb4.png?v=1725498735 1920w",
+      "rattings" : "★★★★★ 4.7 (82)",
+      "name" : "Banglow Modular Sofa",
+      "size" : "3-Seater,10 Sizes",
+      "price" : "$2,100"
+    },
+    {
+      "image" : "//au.koala.com/cdn/shop/files/5a72905ce0ae2b5bec637b13297060ef.png?v=1725500704&width=165 165w,//au.koala.com/cdn/shop/files/5a72905ce0ae2b5bec637b13297060ef.png?v=1725500704&width=360 360w,//au.koala.com/cdn/shop/files/5a72905ce0ae2b5bec637b13297060ef.png?v=1725500704&width=533 533w,//au.koala.com/cdn/shop/files/5a72905ce0ae2b5bec637b13297060ef.png?v=1725500704&width=720 720w,//au.koala.com/cdn/shop/files/5a72905ce0ae2b5bec637b13297060ef.png?v=1725500704&width=940 940w,//au.koala.com/cdn/shop/files/5a72905ce0ae2b5bec637b13297060ef.png?v=1725500704&width=1066 1066w,//au.koala.com/cdn/shop/files/5a72905ce0ae2b5bec637b13297060ef.png?v=1725500704 1920w",
+      "rattings" : "★★★★★ 4.7 (1744)",
+      "name" : "Modern Sofa",
+      "size" : "4.5-Seater,5 Sizes",
+      "price" : "$2,490"
+    },
+    {
+      "image" : "//au.koala.com/cdn/shop/files/4a15c9c51e398bfb1f062da0f8283fc6.png?v=1725500454&width=165 165w,//au.koala.com/cdn/shop/files/4a15c9c51e398bfb1f062da0f8283fc6.png?v=1725500454&width=360 360w,//au.koala.com/cdn/shop/files/4a15c9c51e398bfb1f062da0f8283fc6.png?v=1725500454&width=533 533w,//au.koala.com/cdn/shop/files/4a15c9c51e398bfb1f062da0f8283fc6.png?v=1725500454&width=720 720w,//au.koala.com/cdn/shop/files/4a15c9c51e398bfb1f062da0f8283fc6.png?v=1725500454&width=940 940w,//au.koala.com/cdn/shop/files/4a15c9c51e398bfb1f062da0f8283fc6.png?v=1725500454&width=1066 1066w,//au.koala.com/cdn/shop/files/4a15c9c51e398bfb1f062da0f8283fc6.png?v=1725500454 1920w",
+      "rattings" : "★★★★★ 4.8 (2033)",
+      "name" : "Lounging Sofa",
+      "size" : "3-Seater,2-Sizes",
+      "price" : "$1,390"
+    },
+    {
+      "image" : "//au.koala.com/cdn/shop/files/7869e3f1e5573c9f23477a0a07ff7cab.png?v=1725501404&width=165 165w,//au.koala.com/cdn/shop/files/7869e3f1e5573c9f23477a0a07ff7cab.png?v=1725501404&width=360 360w,//au.koala.com/cdn/shop/files/7869e3f1e5573c9f23477a0a07ff7cab.png?v=1725501404&width=533 533w,//au.koala.com/cdn/shop/files/7869e3f1e5573c9f23477a0a07ff7cab.png?v=1725501404&width=720 720w,//au.koala.com/cdn/shop/files/7869e3f1e5573c9f23477a0a07ff7cab.png?v=1725501404&width=940 940w,//au.koala.com/cdn/shop/files/7869e3f1e5573c9f23477a0a07ff7cab.png?v=1725501404&width=1066 1066w,//au.koala.com/cdn/shop/files/7869e3f1e5573c9f23477a0a07ff7cab.png?v=1725501404 1920w",
+      "rattings" : "★★★★★ 4.7 (82)",
+      "name" : "Suffolk Sofa",
+      "size" : "3.5-Seater, 2 Size",
+      "price" : "$2,000"
+    },
+    {
+      "image" : "//au.koala.com/cdn/shop/files/57611daf43fae84d202b01d0b80a74d9.png?v=1725499918&width=165 165w,//au.koala.com/cdn/shop/files/57611daf43fae84d202b01d0b80a74d9.png?v=1725499918&width=360 360w,//au.koala.com/cdn/shop/files/57611daf43fae84d202b01d0b80a74d9.png?v=1725499918&width=533 533w,//au.koala.com/cdn/shop/files/57611daf43fae84d202b01d0b80a74d9.png?v=1725499918&width=720 720w,//au.koala.com/cdn/shop/files/57611daf43fae84d202b01d0b80a74d9.png?v=1725499918&width=940 940w,//au.koala.com/cdn/shop/files/57611daf43fae84d202b01d0b80a74d9.png?v=1725499918&width=1066 1066w,//au.koala.com/cdn/shop/files/57611daf43fae84d202b01d0b80a74d9.png?v=1725499918 1920w",
+      "rattings" : "★★★★★ 4.6 (1832)",
+      "name" : "Getaway Sofa",
+      "size" : "3-Seater,5 Size",
+      "price" : "$2,995"
+    },
+    {
+      "image" : "//au.koala.com/cdn/shop/files/0cc8a172379059cfb163bfaf97bc9260.png?v=1725498865&width=165 165w,//au.koala.com/cdn/shop/files/0cc8a172379059cfb163bfaf97bc9260.png?v=1725498865&width=360 360w,//au.koala.com/cdn/shop/files/0cc8a172379059cfb163bfaf97bc9260.png?v=1725498865&width=533 533w,//au.koala.com/cdn/shop/files/0cc8a172379059cfb163bfaf97bc9260.png?v=1725498865&width=720 720w,//au.koala.com/cdn/shop/files/0cc8a172379059cfb163bfaf97bc9260.png?v=1725498865&width=940 940w,//au.koala.com/cdn/shop/files/0cc8a172379059cfb163bfaf97bc9260.png?v=1725498865&width=1066 1066w,//au.koala.com/cdn/shop/files/0cc8a172379059cfb163bfaf97bc9260.png?v=1725498865 1920w",
+      "rattings" : "★★★★★ 4.7 (1744)",
+      "name" : "Banglow Modular Sofa",
+      "size" : "5-Seater,10 Size",
+      "price": "$4,950"
+    },
+    {
+      "image" : "//au.koala.com/cdn/shop/files/5043d1f1d02b80c61a5891bb40551a7a.png?v=1725500463&width=165 165w,//au.koala.com/cdn/shop/files/5043d1f1d02b80c61a5891bb40551a7a.png?v=1725500463&width=360 360w,//au.koala.com/cdn/shop/files/5043d1f1d02b80c61a5891bb40551a7a.png?v=1725500463&width=533 533w,//au.koala.com/cdn/shop/files/5043d1f1d02b80c61a5891bb40551a7a.png?v=1725500463&width=720 720w,//au.koala.com/cdn/shop/files/5043d1f1d02b80c61a5891bb40551a7a.png?v=1725500463&width=940 940w,//au.koala.com/cdn/shop/files/5043d1f1d02b80c61a5891bb40551a7a.png?v=1725500463&width=1066 1066w,//au.koala.com/cdn/shop/files/5043d1f1d02b80c61a5891bb40551a7a.png?v=1725500463 1920w",
+      "rattings" : "★★★★★ 4.7 (916)",
+      "name" : "Lounging Sofa",
+      "size" : "3-Seater,2 Size",
+      "price" : "$1,390"
+    },
+    {
+      "image" : "//au.koala.com/cdn/shop/files/abaa58dd19d58629ebf1ad56fdcbee69.png?v=1725500459&width=533",
+      "rattings" : "★★★★★ 4.8 (1924)",
+      "name" : "Lounging Sofa",
+      "size" : "3-Seater,2 Size",
+      "price" : "$1,390"
+    }
+  ]
+
+}
