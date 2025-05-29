@@ -6,7 +6,7 @@ import { FaUser } from "react-icons/fa";
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import { IoIosArrowDown } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [isSofa, setisSofa] = useState(false);
   const [isbedroom, setisBedroom] = useState(false);
@@ -74,7 +74,9 @@ const Navbar = () => {
           backgroundColor: "#fff",
         }}
       >
-        <img src={logo} height="100px" width="100px"></img>
+        <Link to={"/"}>
+          <img src={logo} height="100px" width="100px"></img>
+        </Link>
 
         <ul className="flex gap-8">
           <li className="hover:underline cursor-pointer">Mattresses</li>
@@ -124,24 +126,24 @@ const Navbar = () => {
                 <div className="grid grid-cols-5 gap-4 p-4">
                   {sofas.map((sofa, index) => {
                     const path = sofa.name.toLowerCase().replaceAll(" ", "-");
-                    return(
+                    return (
                       <div
-                      key={index}
-                      className={`bg-white p-4 rounded shadow ${
-                        index >= 6 ? "col-span-1" : ""
-                      }`}
-                    >
-                      <img
-                        src={sofa.image}
-                        alt={sofa.name}
-                        className="w-[100%] h-20 object-cover rounded cursor-pointer"
-                        onClick={() =>navigate(`/${path}`)}
-                      />
+                        key={index}
+                        className={`bg-white p-4 rounded shadow ${
+                          index >= 6 ? "col-span-1" : ""
+                        }`}
+                      >
+                        <img
+                          src={sofa.image}
+                          alt={sofa.name}
+                          className="w-[100%] h-20 object-cover rounded cursor-pointer"
+                          onClick={() => navigate(`/${path}`)}
+                        />
 
-                      <h2 className="mt-2 text-center font-semibold">
-                        {sofa.name}
-                      </h2>
-                    </div>
+                        <h2 className="mt-2 text-center font-semibold">
+                          {sofa.name}
+                        </h2>
+                      </div>
                     );
                   })}
                 </div>
@@ -353,8 +355,6 @@ const Navbar = () => {
           <HiOutlineShoppingCart />
         </div>
       </div>
-
-     
     </>
   );
 };
