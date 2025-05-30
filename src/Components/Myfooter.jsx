@@ -6,6 +6,11 @@ import { FaInstagram } from "react-icons/fa";
 const Myfooter = () => {
   return (
     <>
+    <div className="w-full h-[150px] bg-[#f7f7f3] mt-14">
+            <p className="text-center font-bold text-4xl pt-6">Subscribe to our emails</p>
+            <p className="text-center mt-4">Be the first to know about new collections and exclusive offers.</p>
+          </div>
+          
       <div style={{ backgroundColor: "rgb(104, 108, 88)" }}>
         <div className="flex justify-between p-8">
           <div>

@@ -70,7 +70,7 @@ const Navbar = () => {
         style={{
           position: "sticky",
           top: 0,
-          zIndex: 1000,
+          zIndex: 2,
           backgroundColor: "#fff",
         }}
       >
