@@ -7,7 +7,7 @@ import { HiOutlineShoppingCart } from "react-icons/hi";
 import { IoIosArrowDown } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { ToastContainer,toast } from "react-toastify";
+import { toast } from "react-toastify";
 import LoginModal from "../LoginModal"; // import the modal
 
 const Navbar = () => {
