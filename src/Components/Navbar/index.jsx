@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import logo from "../assets/Koala-Logo.png";
+import logo from "../../assets/Koala-Logo.png";
 import { FiSearch } from "react-icons/fi";
 import { FaUser } from "react-icons/fa";
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import { IoIosArrowDown } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { ToastContainer,toast } from "react-toastify";
+import LoginModal from "../LoginModal"; // import the modal
+
 const Navbar = () => {
   const [isSofa, setisSofa] = useState(false);
   const [isbedroom, setisBedroom] = useState(false);
@@ -16,6 +19,8 @@ const Navbar = () => {
   const [bedroom, setbedroom] = useState([]);
   const [Lroom, setLroom] = useState([]);
   const [outdoor, setOutdoor] = useState([]);
+  const [showLogin, setShowLogin] = useState(false);
+
 
   useEffect(() => {
     axios.get("http://localhost:5000/sofaTypes").then((r) => setSofas(r.data));
@@ -36,6 +41,12 @@ const Navbar = () => {
   }, []);
   const navigate = useNavigate();
 
+  const token = localStorage.getItem("auth");
+
+  const handleLogout = () => {
+    localStorage.removeItem("auth");
+    toast.success("Logout successful");
+  };
   return (
     <>
       {/* Header */}
@@ -74,7 +85,7 @@ const Navbar = () => {
           backgroundColor: "#fff",
         }}
       >
-        <Link to={"/"}>
+        <Link to={"/head"}>
           <img src={logo} height="100px" width="100px"></img>
         </Link>
 
@@ -350,11 +361,29 @@ const Navbar = () => {
           </li>
         </ul>
         <div style={{ display: "flex", gap: "20px" }}>
-          <FiSearch />
-          <FaUser />
-          <HiOutlineShoppingCart />
+          <FiSearch style={{ marginTop: "10px" }} />
+          <FaUser style={{ marginTop: "10px" }} />
+          <HiOutlineShoppingCart style={{ marginTop: "10px" }} />
+          {token ? (
+  <button
+    onClick={handleLogout}
+    className="text-red-600 border px-4 py-2 rounded hover:bg-red-600 hover:text-white transition"
+  >
+    <a href="/">Logout</a>
+  </button>
+) : (
+  <button
+    onClick={() => setShowLogin(true)}
+    className="text-green-600 border px-4 py-2 rounded hover:bg-green-600 hover:text-white transition"
+  >
+    Login
+  </button>
+)}
+
         </div>
       </div>
+{showLogin && <LoginModal onClose={() => setShowLogin(false)} />}
+
     </>
   );
 };

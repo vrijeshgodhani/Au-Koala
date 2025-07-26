@@ -1,17 +1,18 @@
 import React, { useState, useEffect, use } from "react";
 import axios from "axios";
 import { FaStar } from "react-icons/fa";
-import samplevideo from "../assets/video.mp4";
+import samplevideo from "../../assets/video.mp4";
 import { FiTruck } from "react-icons/fi";
 import { SlCalender } from "react-icons/sl";
 import { IoShieldCheckmarkOutline } from "react-icons/io5";
-import Myfooter from './Myfooter'
-import Navbar from "./Navbar";
+import Myfooter from "../Myfooter/index";
+import Navbar from "../Navbar/index";
 
 const Head_nav = () => {
   const [data, setData] = useState([]);
   const [filtered, setFiltered] = useState([]);
   const [categories, setCategories] = useState([]);
+  const [Categoriess, setCategoriess] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("All");
 
   const [isdata, setIsdata] = useState([]);
@@ -22,6 +23,10 @@ const Head_nav = () => {
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
+    axios.get("http://localhost:3000/api/image/categories").then((response) => {
+      setCategoriess(response.data);
+    });
+
     axios
       .get("http://localhost:5000/Cate")
       .then((response) => {
@@ -112,26 +117,30 @@ const Head_nav = () => {
 
   const aboutus = [
     {
-      image : "//au.koala.com/cdn/shop/files/Thoughtful_Design_Icon_1_562a4bca-1a8a-4d73-8a20-6fa695ba8fc4.png?v=1726643398&width=140",
-      title : "Thoughtful design",
-      para : "Clever, comfy furniture that you're proud to show off but not precious about using everyday."
+      image:
+        "//au.koala.com/cdn/shop/files/Thoughtful_Design_Icon_1_562a4bca-1a8a-4d73-8a20-6fa695ba8fc4.png?v=1726643398&width=140",
+      title: "Thoughtful design",
+      para: "Clever, comfy furniture that you're proud to show off but not precious about using everyday.",
     },
     {
-      image : "//au.koala.com/cdn/shop/files/KOALA_ILLUSTRATIONS_120_Day_Trial_1_115e66af-976c-4cf7-bbd0-22f7d8ac8494.png?v=1726643398&width=140",
-      title : "Everyday value",
-      para : "Our direct-to-consumer model cuts out the middlemen, hidden costs and showroom expenses that charge you extra."
+      image:
+        "//au.koala.com/cdn/shop/files/KOALA_ILLUSTRATIONS_120_Day_Trial_1_115e66af-976c-4cf7-bbd0-22f7d8ac8494.png?v=1726643398&width=140",
+      title: "Everyday value",
+      para: "Our direct-to-consumer model cuts out the middlemen, hidden costs and showroom expenses that charge you extra.",
     },
     {
-      image : "//au.koala.com/cdn/shop/files/KOALA_ILLUSTRATIONS_Loaded__in_Truck_1_47a7dfdb-fe1c-46d2-8af1-f8df2a81611d.png?v=1726643398&width=140",
-      title : "Effortless experiences",
-      para : "Fast and flexible delivery, tool-free assembly and 120 nights to love it or return it."
+      image:
+        "//au.koala.com/cdn/shop/files/KOALA_ILLUSTRATIONS_Loaded__in_Truck_1_47a7dfdb-fe1c-46d2-8af1-f8df2a81611d.png?v=1726643398&width=140",
+      title: "Effortless experiences",
+      para: "Fast and flexible delivery, tool-free assembly and 120 nights to love it or return it.",
     },
     {
-      image : "//au.koala.com/cdn/shop/files/Sustainability_Matters_1_6e54c841-10b3-4a31-b541-afd64a506189.png?v=1726643398&width=140",
-      title : "Designed with the world in mind",
-      para : "Ethically made and designed to last — with a portion of our sales supporting koala conservation and the protection of endangered Australian species."
-    }
-  ]
+      image:
+        "//au.koala.com/cdn/shop/files/Sustainability_Matters_1_6e54c841-10b3-4a31-b541-afd64a506189.png?v=1726643398&width=140",
+      title: "Designed with the world in mind",
+      para: "Ethically made and designed to last — with a portion of our sales supporting koala conservation and the protection of endangered Australian species.",
+    },
+  ];
 
   const Categories = [
     {
@@ -157,7 +166,7 @@ const Head_nav = () => {
   ];
   return (
     <>
-     <Navbar/>
+      <Navbar />
 
       <div className="flex justify-center items-center bg-gray-100 h-10 gap-2">
         <div className="flex text-lg">
@@ -256,6 +265,18 @@ const Head_nav = () => {
               className="w-full h-auto rounded shadow"
             />
             <h2 className="text-xl font-bold mb-2">{category.name}</h2>
+          </div>
+        ))}
+      </div>
+      <div className="grid grid-cols-4 gap-4 p-10">
+        {Categoriess.map((category, index) => (
+          <div key={index} className="text-center">
+            <img
+              src={`http://localhost:3000${category.imageUrl}`}
+              alt={category.name}
+              className="w-60 h-48 object-cover rounded shadow mx-auto"
+            />
+            <h2 className="text-xl font-bold mt-2">{category.name}</h2>
           </div>
         ))}
       </div>
@@ -564,8 +585,7 @@ const Head_nav = () => {
               borderRadius: "10px",
               fontWeight: "600px",
             }}
-              className="hover:scale-110 transition-transform duration-300"
-
+            className="hover:scale-110 transition-transform duration-300"
           >
             LEARN MORE
           </button>
@@ -591,33 +611,31 @@ const Head_nav = () => {
 
         <div>
           <div className="flex p-4">
-          {aboutus.map((item, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center rounded-xl shadow-md m-4 w-[23%] bg-[#f7f7f3] h-[330px]"
-            >
-              <img
-                src={item.image}
-                alt={item.title}
-                className="w-[100px] h-[100px] object-cover rounded-lg"
-              />
-              <h3 className="text-lg font-semibold mt-4 mb-2 text-center max-w-[200px]">
-                {item.title}
-              </h3>
-              <p className="text-gray-600 text-sm text-center text-justify max-w-[200px]">
-                {item.para}
-              </p>
-            </div>
-          ))}
-        </div>
-          
+            {aboutus.map((item, index) => (
+              <div
+                key={index}
+                className="flex flex-col items-center rounded-xl shadow-md m-4 w-[23%] bg-[#f7f7f3] h-[330px]"
+              >
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="w-[100px] h-[100px] object-cover rounded-lg"
+                />
+                <h3 className="text-lg font-semibold mt-4 mb-2 text-center max-w-[200px]">
+                  {item.title}
+                </h3>
+                <p className="text-gray-600 text-sm text-center text-justify max-w-[200px]">
+                  {item.para}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
       {/* Emails */}
 
-      
-      <Myfooter/>
+      <Myfooter />
     </>
   );
 };
